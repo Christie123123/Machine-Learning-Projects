@@ -31,8 +31,7 @@ print("\t Number of test data points: %d" % len(twenty_test.data))
 print("\t Number of Classes: %d" % len(categories))
 print("\t Class names: " ,(twenty_train.target_names))
 
-"""# A sample of dataset
-We can see the first instance/element of the training set like this,
+""" A sample of dataset
 """
 
 print("\n".join(twenty_train.data[0].split("\n")))
@@ -47,7 +46,7 @@ print(twenty_train.target_names[twenty_train.target[0]])
 for t in twenty_train.target[:10]:
     print(twenty_train.target_names[t])
 
-"""# Feature extraction
+""" Feature extraction
 since the data is text, to run classification models on the dataset I turn them into vectors with numerical features.
 Therefore, in this section, we extract features using the **Bag of Words** method. To this regard,
 
