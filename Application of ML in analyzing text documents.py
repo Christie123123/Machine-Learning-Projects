@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Due by March 19, 11pm
 # Application of ML in analyzing text documents
 In this project I took advantage of scikit-learn in working with text documents. 
 """
